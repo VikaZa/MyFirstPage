@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>Lesson 7</title>
+	<link rel="stylesheet" href="css/normalize.css.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>   
+<div class="wrapper">
+    <header class="header">
+	    <div class="header-top">
+		    <ul class="container">
+			    <li><a href="#">Логин</a></li>
+		        <li><a href="#">Карта</a></li>
+			    <li class="phone-number"><a href="tel:+380995678909">8(099)5678909</a></li>
+		    </ul>
+		</div>
+	    <div class="header-main">
+		    <div class="container">
+		        <div class="log">
+			        <a href="/"><img src="images/logo.png" alt="site name"></a>      
+		        </div>
+		        <form action="" class="search-form">
+			        <input type="search" name="search" placeholder="Подобрать тур...">
+			        <input type="submit" name="submit" value="Поиск">
+			    </form>
+			</div>
+	    </div>
+		<nav class="navigation">
+		    <div class="container">
+			    <input type="checkbox" name="menu" class="mobile-menu" id="mobile-menu">
+				<label for="mobile-menu" class="mobile-menu"><img src="images/menu.png" alt="menu"></label>
+			    <ul>
+				    <li><a href="#">пляжные туры</a></li>
+				    <li><a href="#">горнолыжные туры</a></li>
+				    <li><a href="#">автобусные туры</a></li>
+				    <li><a href="#">индивидуальные туры</a></li>
+				    <li><a href="#">горящие предложения</a></li>
+			    </ul>
+			</div>
+		</nav>
+    </header>
+	
+	<div class="main">
+		<div class="container">    
+			<aside>
+			    <nav class="sidebar-navigation">
+			        <h4 class="title16 text-center">категории:</h4>
+					    <ul>
+					        <li><a href="#">пляжные туры</a></li>
+					        <li><a href="#">горнолыжные туры</a></li>
+							<li><a href="#">автобусные туры</a></li>
+							<li><a href="#">индивидуальные туры</a></li>
+							<li><a href="#">тур выходного дня</a></li>
+					        <li><a href="#">горящие предложения</a></li>
+					    </ul>
+			    </nav>
+			    <div class="bestsellers">
+					<h4 class="title16 text-center">Bestsellers:</h4>
+					    <ul>
+					        <li><a href="#"><img src="images/photo_1.jpg" alt="item name"></a></li>
+					        <li><a href="#"><img src="images/photo_2.jpg" alt="item name"></a></li>
+							<li><a href="#"><img src="images/photo_3.jpg" alt="item name"></a></li>
+					    </ul>
+					</div>		
+			</aside>
+			<div class="main-content">
+			    <div class="product">
+			        <div class="product_image">
+			            <img src="images/photo_main.png" alt="katalog">
+			        </div>
+			        <div class="product_info">
+					    <h1 class="product_name">Туристическое агентство San Diego – мы работаем, чтобы вы отдыхали!</h1>
+			            <form name="form">
+                            <div class="form-group">
+			                    <span>Страна:</span>
+				                    <select>
+					                    <option>Выберите страну</option>
+					                    <option>Египет</option>
+				                        <option>Испания</option>
+				                        <option>Италия</option>
+						                <option>Тунис</option>
+						                <option>Турция</option>
+			                        </select>
+                            </div>
+			                <div class="form-group">
+			                    <span>Дата вылета:</span>
+			                        <input type="date" name="date" placeholder="date" required="required">
+                            </div>		
+			                <div class="form-group">  
+			                    <p>Кол-во чел.</p>
+                                <p><input id="two" type="radio" value="two" checked name="q-ty"/><label for="two">2<label></p>
+				                <p><input id="three" type="radio" value="three" name="q-ty"/><label for="three">3<label></p>
+                            </div>
+			                <div class="form-group">
+                                <input type="submit" class="button" name="login" value="Отправить">
+                                <input type="reset" class="button" name="reset" value="Сбросить">
+                            </div>   	
+		                </form>
+				    </div>
+		        </div>
+                <div class="specification"> 
+			        <h5 class="title14">Вы запланировали отпуск, но еще не знаете, как его провести?</h5>
+			        <p>Без лишней скромности мы можем утверждать, что обратившись к нам, вы получите именно то, что хотели, ведь мы работаем для того, чтобы вы могли отлично отдохнуть. Наши менеджеры хорошо разбираются в особенностях туристических маршрутов, поэтому смогут подобрать те варианты поездок, которые позволят вам получить максимальное удовольствие от отдыха.</p>	
+		        </div>
+			    <div class="configuration">
+                    <h5 class="title14">Наши услуги:</h5>
+					<div class="table"> 
+			            <table class="tables">
+					        <tbody>
+				                <tr>
+					                <th>Выезд менеджера</th><td>По предварительному звонку и согласованию даты и времени наш менеджер приедет к Вам и поможет выбрать тур, ответить на все вопросы и составить необходимые документы.</td>
+					            </tr>
+					            <tr>
+					                <th>Доставка документов</th><td> Для того чтобы избавить наших туристов от лишних забот и затрат своего времени турагентство предлагает доставку пакета документов для туристов, которые приобрели тур.</td>
+					            </tr>
+					            <tr>
+					                <th>Визовая поддержка</th><td>Турагентство оказывает визовую поддержку при получении туристических виз. Оформление туристических виз совершается под определенный туристический пакет.</td>
+					            </tr>
+					            <tr>
+					                <th>Заказ авиабилетов</th><td>Турагенство забронирует Вам авиабилеты в любую точку мира.</td>
+					            </tr>
+					            <tr>
+					                <th>Подарочные сертификаты</th><td>Вы можете приобрести сертификат на любую сумму.Владелец сертификата может выбрать тур и даты поездки по своему желанию и мы с удовольствием в этом ему поможем.</td>
+					            </tr>
+					            <tr>
+					                <th>Домашние животные</th><td>Мы подберем гостиницу для животных, которая устроит и Вас и Вашего любимца!</td>
+					            </tr>
+						    </tbody>
+				        </table>
+					</div>	
+		        </div>
+			    <div class="key_info">
+			        <div class="key_info_text title16"><p>быстрое<br>оформление</p></div>
+			   	    <div class="key_info_text title16"><p>удобный для вас<br>способ оплаты</p></div>
+				    <div class="key_info_text title16"><p>полная<br>страховка</p></div>
+		        </div>		
+            </div>
+        </div>
+    </div>
+        
+    <footer>
+	    <div class="footer-main">
+		    <div class="container">
+			    <ul>
+				    <h4 class="title16">links</h4>
+					<li>Beach tours</li>
+			        <li>Weekend tours</li>
+			        <li>Skiing tours</li>
+			        <li>About us</li>
+			    </ul>
+			    <ul>
+			        <h4 class="title16">contact us</h4>
+					<li>115 E 23rd NYC</li>
+			        <li>251 State St,Schenectedy,NY</li>
+			        <li>(012)345-6789</li>
+			        <li>test@test.com</li>
+			    </ul>
+			    <div>
+			        <h4 class="title16">stay in touch</h4>
+					<ul class="icon">
+					    <li><a><img src="images/facebook.png" alt="vk"></a></li>
+			            <li><a><img src="images/instagram.png" alt="vk"></a></li>
+			            <li><a><img src="images/skype.png" alt="vk"></a></li>
+			            <li><a><img src="images/vk.png" alt="vk"></a></li>
+			        </ul>
+			    </div>
+			</div>
+		</div>
+	   	<div class="footer-bottom">
+		    <div class="container">
+	            <a href="#">Copyright@2020</a>
+	        </div>        
+	    </div>
+	</footer>
+
+
+</div> 
+</body>
+</html>
